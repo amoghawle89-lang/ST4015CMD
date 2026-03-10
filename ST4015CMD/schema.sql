@@ -1,7 +1,7 @@
-1. Student Table
-CREATE TABLE Student (
+CREATE  TABLE Student (
     StudentID INT PRIMARY KEY,
-    StudentName VARCHAR(50),
+    StudentName VARCHAR(50), Student Table
+CREATE
     Email VARCHAR(100)
 );
 
@@ -32,4 +32,21 @@ INSERT INTO Student (StudentID, StudentName, Email) VALUES
 (7, 'Aman', 'aman@email.com');
 
 
-INSERT I
+INSERT INTO Club (ClubName, ClubRoom, ClubMentor) VALUES 
+('Music Club', 'R101', 'Mr. Raman'),
+('Sports Club', 'R202', 'Ms. Sita'),
+('Drama Club', 'R303', 'Mr. Kiran'),
+('Coding Club', 'Lab1', 'Mr. Anil');
+
+
+INSERT INTO Membership (StudentID, ClubName, JoinDate) VALUES 
+(1, 'Music Club', '2024-01-10'),
+(2, 'Sports Club', '2024-01-12'),
+(1, 'Sports Club', '2024-01-15'),
+(3, 'Music Club', '2024-01-20'),
+(4, 'Drama Club', '2024-01-18'),
+(5, 'Music Club', '2024-01-22'),
+(2, 'Drama Club', '2024-01-25'),
+(6, 'Sports Club', '2024-01-27'),
+(3, 'Coding Club', '2024-01-28'),
+(7, 'Coding Club', '2024-01-30');
