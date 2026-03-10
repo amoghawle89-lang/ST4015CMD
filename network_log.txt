@@ -1,0 +1,43 @@
+NETWORK ANALYZER LOG
+--------------------
+[2026-03-01 21:28:59.244658] PACKET TRANSMISSION ERROR
+[2026-03-01 21:29:00.246118] SENT ICMP packet (1124 bytes) - Type: DHCP Request
+[2026-03-01 21:29:01.246641] RECEIVED ICMP packet (1297 bytes) - Type: DHCP Offer
+[2026-03-01 21:29:02.248118] PACKET TRANSMISSION ERROR
+[2026-03-01 21:29:03.248938] SENT TCP packet (1246 bytes) - Type: DHCP Request
+[2026-03-01 21:29:04.250281] SENT TCP packet (535 bytes) - Type: File Transfer
+[2026-03-01 21:29:05.251897] SENT TCP packet (537 bytes) - Type: DHCP Request
+[2026-03-01 21:29:06.254069] PACKET TRANSMISSION ERROR
+[2026-03-01 21:29:07.255813] PACKET TRANSMISSION ERROR
+[2026-03-01 21:29:08.257874] PACKET TRANSMISSION ERROR
+[2026-03-01 21:29:09.259217] SENT TCP packet (381 bytes) - Type: DNS Response
+[2026-03-01 21:29:10.260209] SENT UDP packet (315 bytes) - Type: HTTP Response
+[2026-03-01 21:29:11.261336] SENT TCP packet (310 bytes) - Type: DHCP Discover
+[2026-03-01 21:29:12.263594] RECEIVED ICMP packet (1140 bytes) - Type: Streaming Data
+[2026-03-01 21:29:13.265022] PACKET TRANSMISSION ERROR
+[2026-03-01 21:29:14.265958] SENT UDP packet (1242 bytes) - Type: Chat Message
+[2026-03-01 21:29:15.267965] RECEIVED UDP packet (1335 bytes) - Type: DNS Response
+[2026-03-01 21:29:16.268921] RECEIVED UDP packet (1219 bytes) - Type: DHCP Discover
+[2026-03-01 21:29:17.270556] SENT TCP packet (802 bytes) - Type: DHCP Discover
+[2026-03-01 21:29:18.275233] RECEIVED ICMP packet (593 bytes) - Type: DHCP Discover
+[2026-03-01 21:29:19.277462] RECEIVED TCP packet (1124 bytes) - Type: Pong
+[2026-03-01 21:29:20.281197] SENT TCP packet (303 bytes) - Type: Streaming Data
+[2026-03-01 21:29:21.283011] RECEIVED ICMP packet (507 bytes) - Type: DHCP ACK
+[2026-03-01 21:29:22.285586] RECEIVED ICMP packet (375 bytes) - Type: DHCP Discover
+[2026-03-01 21:29:23.286320] SENT ICMP packet (722 bytes) - Type: DHCP ACK
+[2026-03-01 21:29:24.287605] PACKET TRANSMISSION ERROR
+[2026-03-01 21:29:25.289245] SENT UDP packet (1478 bytes) - Type: DNS Response
+[2026-03-01 21:29:26.290519] PACKET TRANSMISSION ERROR
+[2026-03-01 21:29:27.292100] RECEIVED UDP packet (373 bytes) - Type: DNS Query
+[2026-03-01 21:29:28.300359] RECEIVED UDP packet (1192 bytes) - Type: ARP Request
+
+----- FINAL NETWORK STATISTICS -----
+Monitoring Time: 30.06 seconds
+Sent Packets: 12
+Received Packets: 10
+Error Packets: 8
+Packet Loss: 2
+Total Data Sent: 8995 bytes
+Total Data Received: 9155 bytes
+Send Throughput: 299.25 bytes/sec
+Receive Throughput: 304.57 bytes/sec
